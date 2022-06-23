@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { allowedNodeEnvironmentFlags } = require('process');
 const { json } = require('stream/consumers');
 
 var contId;
